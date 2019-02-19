@@ -52,6 +52,7 @@ export default class HomeScreen extends React.Component {
               <Text style={styles.helpLinkText}>Help, it didn’t automatically reload!</Text>
             </TouchableOpacity>
           </View>
+          {/* Button Added */}
           <Button
             onPress={console.log("Pressed")}
             title="Learn More"
